@@ -1,15 +1,12 @@
-import { Layout } from "antd";
 import React from "react";
 import "./App.css";
-import MenuMain from "./component/menuMain";
 import Home from "./page/home";
+import { Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <Home />
-      </Layout>
+      <Home />
     </div>
   );
 }
